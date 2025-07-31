@@ -1,8 +1,8 @@
 :root {
-    --bg: #181a1b;
+    --bg: #8e7b67;
     --fg: #f1f1f1;
     --accent: #4db6ac;
-    --card: #232526;
+    --card: #dd5500;
 }
 body {
     background: var(--bg);
@@ -65,5 +65,29 @@ padding: 1rem;
 float: none;
 display: block;
 margin: 0.5rem auto 0 auto;
+    }
+}
+@font-face {
+font-family: 'cursiveru';
+src: url('BRADHITC.TTF') format('truetype');
+}
+@font-face {
+font-family: 'cursiveen';
+src: url('Tomatoes-O8L8.ttf') format('truetype');
+}
+@keyframes inleft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes inright {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
     }
 }
